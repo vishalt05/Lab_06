@@ -31,3 +31,4 @@ if __name__ == '__main__':
             print(f"The encoded password is {en} and the original password is {d}.")
         if option == "3":
             yes = False
+# main function carries out the encoder() and decoder() functions with menu
