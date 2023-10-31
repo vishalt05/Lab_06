@@ -9,9 +9,18 @@ def encode(password):
         s += str(new)
     return s
 
+
 # function that decodes the password by subtracting 3 from each value
 def decode(password):
-    
+    string = str(encode(password))
+    list = []
+    final_string = str()
+    for i in string:
+        list.append(i)
+    for i in range(0, len(list)):
+        number = int(list[i]) - 3
+        final_string += str(number)
+    return final_string
 
 
 if __name__ == '__main__':
