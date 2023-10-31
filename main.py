@@ -28,7 +28,7 @@ if __name__ == '__main__':
             print("Your password has been encoded and stored!\n\n")
         elif option == "2":
             d = decode(en)
-            print(f"The encoded password is {en} and the original password is {d}.")
+            print(f"The encoded password is {en} and the original password is {d}.\n\n")
         if option == "3":
             yes = False
 # main function carries out the encoder() and decoder() functions with menu
