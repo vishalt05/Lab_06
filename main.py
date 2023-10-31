@@ -10,7 +10,7 @@ def encode(password):
     return s
 
 # function that decodes the password by subtracting 3 from each value
-def decoder(password):
+def decode(password):
     
 
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
             pas = str(input("Please enter your password to encode: "))
             print("Your password has been encoded and stored!\n\n")
         elif option == "2":
-            print(f"The encoded password is {encode(pas)} and the original password is {decoder(pas)}.\n\n")
+            print(f"The encoded password is {encode(pas)} and the original password is {decode(pas)}.\n\n")
         if option == "3":
             yes = False
 # main function carries out the encoder() and decoder() functions with menu
